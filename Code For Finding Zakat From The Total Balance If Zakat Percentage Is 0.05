@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	float balance;
+	float zakat;
+	const float per = 0.05;
+	cout<<"Enter The Balance";
+	cin>>balance;
+	zakat = balance * per;
+	balance = balance - zakat;
+	cout<<"Your current balance is"<<balance;
+	cout<<"Zakat deducted from your account"<<zakat;
+}
