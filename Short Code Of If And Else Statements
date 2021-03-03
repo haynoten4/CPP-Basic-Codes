@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cout<<"Give The Value Of a:";
+	cin>>a;
+	(a>2)?cout<<"Greater Than 2":cout<<"Smaller Than 2";
+}
