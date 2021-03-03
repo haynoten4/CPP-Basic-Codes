@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cout<<"Give The Value Of a:";
+	cin>>a;
+	if (a>2)
+	cout<<"a Is Greater Than 2";
+	else
+	cout<<"a Is Smaller Than 2";
+}
