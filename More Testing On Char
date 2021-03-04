@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	char a, b, c, d;
+	cout<<"Enter Value Of a:";
+	cin>>a;
+	cout<<"Enter Value Of b:";
+	cin>>b;
+	cout<<"Enter Value Of c:";
+	cin>>c;
+	cout<<"Enter Value Of d:";
+	cin>>d;
+	(a=b)?cout<<"a = b"<<endl:cout<<"a != b"<<endl;
+	(c=d)?cout<<"c = d"<<endl:cout<<"c != d"<<endl;
+	
+}
