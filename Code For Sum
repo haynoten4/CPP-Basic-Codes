@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a, b, sum;
+	cout<<"Enter The Value Of A:";
+	cin>>a;
+	cout<<"Enter The Value Of B:";
+	cin>>b;
+	sum = a + b;
+	cout<<"The Sum Is ="<<sum;
+	
+}
