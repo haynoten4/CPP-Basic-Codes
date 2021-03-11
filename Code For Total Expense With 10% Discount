@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int texpense, quantity, price;
+	cout<<"Enter quantity of item:";
+	cin>>quantity;
+	cout<<"Enter Price Of item:";
+	cin>>price;
+	texpense=quantity * price;
+	if (texpense>5000)
+	{
+	int discount = price * 0.1;
+	texpense = texpense - discount;
+	cout<<"Total expense is:"<<texpense;
+	}
+	else if (texpense<5000)
+	{
+	cout<<"Total expense is:"<<texpense;
+	}
+}
