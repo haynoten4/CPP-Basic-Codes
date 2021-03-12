@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int age_ram, age_sulabh, age_ajay;
+	cout<<"Enter the age of Ram:";
+		cin>>age_ram;
+	cout<<"Enter the age of Sulabh:";
+		cin>>age_sulabh;
+	cout<<"Enter the age of Ajay:";
+		cin>>age_ajay;
+	if(age_ram<age_sulabh && age_ram<age_ajay)
+		cout<<"Ram is the youngest";
+	else
+		if (age_sulabh<age_ram && age_sulabh<age_ajay)
+			cout<<"Sulabh is the youngest";
+		else if (age_ajay<age_sulabh && age_ajay<age_ram)
+			cout<<"Ajay is the youngest";
+}
