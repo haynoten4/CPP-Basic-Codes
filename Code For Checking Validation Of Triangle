@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int angle1, angle2, angle3;
+	cout<<"Enter the value of first angle:";
+	cin>>angle1;
+	cout<<"Enter the value of second angle:";
+	cin>>angle2;
+	cout<<"Enter the value of third angle:";
+	cin>>angle3;
+	int adder = angle1+angle2+angle3;
+	if (adder==180)
+	cout<<"The triangle is valid";
+	else
+	cout<<"The triangle is not valid";
+	return 0;
+}
