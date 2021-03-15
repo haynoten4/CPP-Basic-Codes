@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int sub1, sub2, sub3, sub4, sub5;
+	cout<<"Enter Marks For Sub1:";
+	cin>>sub1;
+	cout<<"Enter Marks For Sub2:";
+	cin>>sub2;
+	cout<<"Enter Marks For Sub3:";
+	cin>>sub3;	
+	cout<<"Enter Marks For Sub4:";
+	cin>>sub4;
+	cout<<"Enter Marks For Sub5:";
+	cin>>sub5;
+	float percentage = (sub1+sub2+sub3+sub4+sub5)/5;
+	if (percentage >= 60)
+	cout<<"First Division";
+	else if (percentage >= 50 && percentage <= 59)
+	cout<<"Second Division";
+	else if (percentage >= 40 && percentage <= 49)
+	cout<<"Third Division";
+	else if (percentage < 40)
+	cout<<"Fail";
+	
+}
