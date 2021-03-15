@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int basic_salary,HRA,DA;
+	cout<<"Enter the basic salary:";
+	cin>>basic_salary;
+	if (basic_salary<1500)
+	{
+		HRA=basic_salary*0.1;
+		DA=basic_salary=basic_salary*0.9;
+	}
+	else if (basic_salary>1500 || basic_salary == 1500)
+	{
+		HRA=500;
+		DA=basic_salary*0.98;
+		
+	}
+	float gross_salary=basic_salary+DA+HRA;
+	cout<<"The gross salary is:"<<gross_salary;
+}
