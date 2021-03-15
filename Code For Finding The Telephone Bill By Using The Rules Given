@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int calls,bill;
+	cout<<"Enter the no of calls:";
+	cin>>calls;
+	if (calls<100 || calls==100)
+	bill = 200;
+	if (calls>100 && calls<=150)
+	{
+		calls = calls-100;
+		bill = 200+(0.60*calls);
+	}
+	else if (calls>150 && calls<=200)
+	{
+		calls = calls-150;
+		bill = 200+(0.60*50)+(calls*0.50);
+	}
+	else if (calls>200)
+	{
+	calls = calls-200;
+	bill = 200+(0.60*50)+(0.50*50)+(0.40*calls);
+	}
+	cout<<"The bill is:"<<bill;
+}
