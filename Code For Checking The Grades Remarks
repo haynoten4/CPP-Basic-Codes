@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	char ch;
+	cout<<"Enter the student grade:";
+	cin>>ch;
+	if (ch == 'A' || ch == 'a')
+	cout<<"Excellent";
+	else if (ch == 'B' || ch == 'b')
+	cout<<"Very Good";
+	else if (ch == 'C' || ch == 'c')
+	cout<<"Good";
+	else if (ch == 'D' || ch == 'd')
+	cout<<"Poor";
+	else if (ch == 'F' || ch == 'f')
+	cout<<"Fail";
+	else
+	cout<<"Enter the grade from A to D or F";
+	return 0;
+	
+}
