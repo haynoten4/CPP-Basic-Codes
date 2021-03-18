@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int salary, deduction;
+	cout<<"Enter the salary:";
+	cin>>salary;
+	if (salary < 10000)
+	cout<<"The salary is:"<<salary;
+	if ((salary == 10000 || salary > 10000) && (salary < 20000))
+	cout<<"The salary is:"<<salary-1000;
+	if (salary == 20000 || salary > 20000)
+	{
+		deduction = salary*0.07;
+		salary = salary-deduction;
+		cout<<"The salary is:"<<salary;
+	}
+	
+} 
